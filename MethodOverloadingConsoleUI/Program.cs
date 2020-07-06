@@ -9,10 +9,10 @@ namespace MethodOverloadingConsoleUI
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Give me a number please :)");
+            Console.WriteLine("Give me a number please: )");
             int x = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Give me a another number please :)");
+            Console.WriteLine("Give me a another number please: )");
             int y = int.Parse(Console.ReadLine());
 
             int Answer = Add(x, y);
